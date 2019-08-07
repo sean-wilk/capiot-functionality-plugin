@@ -101,14 +101,12 @@ if( !class_exists( 'CF' ) ) {
 		 */
 		private function includes() {
 			$includes_path = plugin_dir_path( __FILE__ ) . 'includes/';
-			require_once CF_PLUGIN_DIR . 'includes/class-CF-register-post-types.php';
-			require_once CF_PLUGIN_DIR . 'includes/class-CF-register-taxonomies.php';
-			require_once CF_PLUGIN_DIR . 'includes/class-CF-register-widgets.php';
-
-			require_once CF_PLUGIN_DIR . 'includes/class-CF-add-mime-types.php';
+			require_once CF_PLUGIN_DIR . 'includes/class-cf-register-post-types.php';
+			require_once CF_PLUGIN_DIR . 'includes/class-cf-register-taxonomies.php';
+			require_once CF_PLUGIN_DIR . 'includes/class-cf-register-widgets.php';
 
 			require_once CF_PLUGIN_DIR . 'includes/template-functions.php';
-			require_once CF_PLUGIN_DIR . 'includes/class-CF-init.php';
+			require_once CF_PLUGIN_DIR . 'includes/class-cf-init.php';
 		}
 
 		/**
