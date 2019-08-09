@@ -81,5 +81,25 @@ class CF_Register_Widgets {
             'before_title' => '<h4 class="widget-title">',
             'after_title' => '</h4>',
         ));
+
+        // Desktop right header widget
+        register_sidebar( array(
+      		'name' => 'Desktop Header Widget',
+      		'id' => 'header-widget',
+      		'before_widget' => '<div class="hw-widget">',
+      		'after_widget' => '</div>',
+      		'before_title' => '<h2 class="hw-title">',
+      		'after_title' => '</h2>',
+      	) );
+
+        // Mobile right header widget
+      	register_sidebar( array(
+      		'name' => 'Mobile Header Widget',
+      		'id' => 'mobile-header-widget',
+      		'before_widget' => '<div class="mhw-widget">',
+      		'after_widget' => '</div>',
+      		'before_title' => '<h2 class="mhw-title">',
+      		'after_title' => '</h2>',
+      	) );
     }
 }
