@@ -34,7 +34,7 @@ class CF_Register_Widgets {
             'description' => __('Place desired content here using text block', 'capiot'),
             'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
             'after_widget' => '</div>',
-            'before_title' => '<h5 class="widget-title">',
+            'before_title' => '<h4 class="widget-title">',
             'after_title' => '</h4>',
         ));
 
@@ -45,7 +45,7 @@ class CF_Register_Widgets {
             'description' => __('Place desired content here using text block', 'capiot'),
             'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
             'after_widget' => '</div>',
-            'before_title' => '<h5 class="widget-title">',
+            'before_title' => '<h4 class="widget-title">',
             'after_title' => '</h4>',
         ));
 
