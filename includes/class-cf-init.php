@@ -20,6 +20,7 @@ class CF_Init {
 		$register_post_types     = new CFT_Register_Post_Types();
 		$register_taxonomies     = new CF_Register_Taxonomies();
 		$register_widgets				 = new CF_Register_Widgets();
+		$register_custom_fields	 = new CF_Register_Custom_Fields();
 
 	}
 

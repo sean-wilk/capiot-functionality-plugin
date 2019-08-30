@@ -11,7 +11,7 @@
  * Plugin Name:       Capiot Functionality
  * Plugin URI:        https://github.com/sean-wilk/
  * Description:       Custom functionality plugin for Capiot
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Sean Wilkinson
  * Author URI:        http://wearego.digital
  * License:           GPL-2.0+
@@ -104,6 +104,7 @@ if( !class_exists( 'CF' ) ) {
 			require_once CF_PLUGIN_DIR . 'includes/class-cf-register-post-types.php';
 			require_once CF_PLUGIN_DIR . 'includes/class-cf-register-taxonomies.php';
 			require_once CF_PLUGIN_DIR . 'includes/class-cf-register-widgets.php';
+			require_once CF_PLUGIN_DIR . 'includes/class-cf-register-custom-fields.php';
 
 			require_once CF_PLUGIN_DIR . 'includes/template-functions.php';
 			require_once CF_PLUGIN_DIR . 'includes/class-cf-init.php';
