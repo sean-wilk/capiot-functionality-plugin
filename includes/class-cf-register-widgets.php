@@ -27,6 +27,16 @@ class CF_Register_Widgets {
      */
     public function capiot_footer_widgets() {
 
+        register_sidebar( apply_filters( 'capiot_blog_sidebar', array(
+            'name'          => esc_html__('Blog Sidebar', 'capiot'),
+            'id'            => 'capiot-blog-sidebar',
+            'description'   => esc_html__('Appears in the blog sidebar.', 'capiot'),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        )));
+
         // First footer widget area, located in the footer. Empty by default.
         register_sidebar(array(
             'name' => __('First Footer Widget Area', 'capiot'),
